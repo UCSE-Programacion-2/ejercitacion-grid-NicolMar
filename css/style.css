@@ -130,3 +130,16 @@ h3 {
     grid-row: 2;
   }
 }
+
+/* Ajuste desktop para autograding */
+@media screen and (min-width: 768px) {
+  .exercice {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .exercice-incomplete {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
