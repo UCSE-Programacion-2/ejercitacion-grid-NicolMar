@@ -79,7 +79,7 @@ pattern = re.compile(
 if not pattern.search(text):
     sys.exit(1)
 
-print("CORRECTO")
+
 PY
     ok
     ;;
